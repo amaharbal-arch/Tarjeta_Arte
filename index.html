@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Tarjeta de Presentacion</title>
+    <title>Tarjeta Digital</title>
+    
+    <meta name="theme-color" content="#2c1810">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="manifest.json">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -58,5 +64,14 @@
            
         </div>
     </div>
+   <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./ServiceWorker.js')
+                    .then(reg => console.log('Service Worker registrado con éxito'))
+                    .catch(err => console.error('Error al registrar Service Worker', err));
+            });
+        }
+    </script>
 </body>
 </html>
