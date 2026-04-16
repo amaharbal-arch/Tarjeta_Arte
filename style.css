@@ -128,21 +128,21 @@ body {
 
 .qr-section {
     text-align: center;
-    padding: 1.0vh 0;
+    padding: 0.5vh 0;
     background: rgba(245, 222, 179, 0.05);
-    margin: 1vh 0;
+    margin: 0.5vh 0;
     border-radius: 0.6px;
     flex-shrink: 0;
 }
 
 .qr-code {
     background: white;
-    padding: 1vh;
+    padding: 0.8vh;
     border-radius: 0.7px;
     display: inline-block;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    width: 15vh;
-    height: 15vh;
+    width: 13vh;
+    height: 13vh;
     max-width: 160px;
     max-height: 160px;
 }
@@ -155,19 +155,19 @@ body {
 
 .qr-label {
     color: #DEB887;
-    margin-top: 0.5vh;
-    font-size: clamp(9px, 1.8vh, 13px);
+    margin-top: 0.3vh;
+    font-size: clamp(9px, 1.5vh, 13px);
     font-style: italic;
 }
 
 .footer {
     text-align: center;
-    padding: 1.5vh 4vw;
+    padding: 1vh 4vw;
     background: rgba(245, 222, 179, 0.05);
     color: #f5f5dc;
-    font-size: clamp(12px, 2.2vh, 14px);
+    font-size: clamp(11px, 2vh, 13px);
     flex-shrink: 0;
-    line-height: 1.5;
+    line-height: 1.3;
     font-style: italic;
 }
 
