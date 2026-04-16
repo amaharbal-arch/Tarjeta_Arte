@@ -33,7 +33,7 @@ body {
     background: #121212;
     background-position: center;
     background-size: 100% 100%;
-    padding: 2vh 4vw;
+    padding: 2.5vh 5vw;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -74,9 +74,9 @@ body {
 }
 
 .content {
-    flex: 1;
-    overflow-y: auto;
-    padding: 1.8vh 5vw;
+    flex: 0 1 auto;
+    overflow-y: hidden;
+    padding: 1vh 5vw;
     display: flex;
     flex-direction: column;
 }
@@ -84,7 +84,7 @@ body {
 .info-item {
     display: flex;
     align-items: center;
-    margin-bottom: 1vh;
+    margin-bottom: 0.8vh;
     padding: 1.2vh 4vw;
     background: rgba(255, 255, 255, 0.03);
     border-radius: 5px;
@@ -122,29 +122,29 @@ body {
 .divider {
     height: 1px;
     background: linear-gradient(to right, transparent, #999, transparent);
-    margin: 0.5vh 0;
+    margin: 0.2vh 0;
     flex-shrink: 0;
 }
 
 .qr-section {
     text-align: center;
-    padding: 0.5vh 0;
+    padding: 1.0vh 0;
     background: rgba(245, 222, 179, 0.05);
-    margin: 0.5vh 0;
+    margin: 0;
     border-radius: 0.6px;
     flex-shrink: 0;
 }
 
 .qr-code {
     background: white;
-    padding: 0.8vh;
+    padding: 1vh;
     border-radius: 0.7px;
     display: inline-block;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    width: 13vh;
-    height: 13vh;
-    max-width: 160px;
-    max-height: 160px;
+    width: 14vh;
+    height: 14vh;
+    max-width: 130px;
+    max-height: 130px;
 }
 
 .qr-code img {
@@ -155,8 +155,8 @@ body {
 
 .qr-label {
     color: #DEB887;
-    margin-top: 0.4vh;
-    font-size: clamp(9px, 1.4vh, 13px);
+    margin-top: 0.5vh;
+    font-size: clamp(9px, 1.8vh, 13px);
     font-style: italic;
 }
 
@@ -165,9 +165,9 @@ body {
     padding: 1vh 4vw;
     background: rgba(245, 222, 179, 0.05);
     color: #f5f5dc;
-    font-size: clamp(10px, 1.5vh, 11px);
+    font-size: clamp(11px, 1.8vh, 13px);
     flex-shrink: 0;
-    line-height: 1.3;
+    line-height: 1.2;
     font-style: italic;
 }
 
