@@ -1,6 +1,7 @@
 # PROYECTO:: Sistema de Presentación Digital PWA
 ****  
-**Arquitectura:** Diseño Centrado en la Eficiencia (DCE)  
+**Arquitectura:** Diseño Centrado en la Eficiencia (DCE) 
+**Stack:** HTML5/CSS3/JS
 **Despliegue:** [https://tarjeta-arte.vercel.app/] (https://tarjeta-arte.vercel.app/)
 
 ## 1. Introducción
